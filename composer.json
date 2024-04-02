@@ -1,0 +1,46 @@
+{
+    "name": "oldpak/event-manager",
+    "description": "The Doctrine Event Manager is a simple PHP event system that was built to be used with the various Doctrine projects.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "events",
+        "event",
+        "event dispatcher",
+        "event manager",
+        "event system"
+    ],
+    "authors": [
+        {
+            "name": "oldpak",
+            "email": "2233466866@qq.com"
+        }
+    ],
+    "homepage": "https://www.doctrine-project.org/projects/event-manager.html",
+    "require": {
+        "php": "^7.1 || ^8.0",
+        "oldpak/deprecations": "^1.0"
+    },
+    "require-dev": {
+        "doctrine/coding-standard": "^9 || ^10",
+        "phpstan/phpstan": "~1.4.10 || ^1.8.8",
+        "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
+        "vimeo/psalm": "^4.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "Doctrine\\Common\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Doctrine\\Tests\\Common\\": "tests"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        },
+        "sort-packages": true
+    }
+}

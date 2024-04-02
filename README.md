@@ -1,2 +1,0 @@
-# event-manager
-event-manager
